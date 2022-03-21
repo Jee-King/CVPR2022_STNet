@@ -1,4 +1,10 @@
 # CVPR2022_STNet
+
+##  Spiking Transformers for Event-based Single Object Tracking  (CVPR 2022)
+
+[Jiqing Zhang](https://zhangjiqing.com), [Bo Dong](https://dongshuhao.github.io/), Haiwei Zhang, Jianchuan Ding, [Felix Heide](https://www.cs.princeton.edu/~fheide/), Baocai Yin, [Xin Yang](https://xinyangdut.github.io/)
+
+[[project](https://zhangjiqing.com/publication/stnet/)] [paper]
  
 The code is based on [SiamFC++](https://github.com/MegviiDetection/video_analyst) and tested on Ubuntu 20.04 with PyTorch 1.8.0.
 
@@ -24,3 +30,14 @@ The code is based on [SiamFC++](https://github.com/MegviiDetection/video_analyst
 5. run ``` python main/test.py --config experiments/test/fe240/fe240.yaml ``` the predicted bounding boxes are be saved in logs/EVENT-Benchmark/.  
     - The predicted  bounding box format:  An N×4 matrix with each line representing object location [xmin, ymin, width, height] in one event frame.
 ****
+
+##  Citation
+Please cite our paper if you find the work useful:
+```
+@inproceedings{zhang2022stnet,
+  title={Spiking Transformers for Event-based Single Object Tracking},
+  author={Zhang, Jiqing  and Dong, Bo and Zhang, Haiwei and Ding, Jianchuan and Heide, Felix and Yin, Baocai and Yang, Xin},
+  booktitle={Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```
