@@ -1,0 +1,27 @@
+autoflake
+colorama==0.3.7
+Cython==0.27.3
+future
+ipython
+isort
+loguru==0.4.1
+matplotlib
+numba==0.45.0
+numpy>=1.16.0
+# opencv-python==4.1.0.25
+opencv-python
+pandas
+pillow
+pre-commit
+pycocotools
+pylint
+scikit-image
+scipy==1.4.1
+shapely==1.7.0
+tensorboard
+torch>=1.4.0
+torchvision>=0.5.0
+tqdm
+wget
+yacs
+yapf==0.28.0
